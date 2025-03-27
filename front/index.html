@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login y Registro - Chat Grupal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Contenedor de Login -->
+    <div id="login-container" class="form-container active">
+      <h2>Iniciar Sesión</h2>
+      <input type="text" id="login-username" placeholder="Usuario" required>
+      <input type="password" id="login-password" placeholder="Contraseña" required>
+      <button id="login-btn" class="btn">Entrar</button>
+      <p>¿No tienes cuenta? <a href="#" id="show-register">Regístrate aquí</a></p>
+    </div>
+
+    <!-- Contenedor de Registro -->
+    <div id="register-container" class="form-container">
+      <h2>Registro</h2>
+      <input type="text" id="register-username" placeholder="Usuario" required>
+      <input type="password" id="register-password" placeholder="Contraseña" required>
+      <button id="register-btn" class="btn">Registrarse</button>
+      <p>¿Ya tienes cuenta? <a href="#" id="show-login">Inicia sesión aquí</a></p>
+    </div>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Grupal</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="header">
+      <h2>Chat Grupal</h2>
+      <button id="logout-btn">Cerrar sesión</button>
+    </div>
+
+    <div id="messages" class="messages">
+      <!-- Los mensajes se agregan dinámicamente aquí -->
+    </div>
+
+    <div class="message-input">
+      <input type="text" id="message-text" placeholder="Escribe un mensaje..." />
+      <button id="send-btn">Enviar</button>
+    </div>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>
